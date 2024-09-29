@@ -1,0 +1,99 @@
+   /* for dextop */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+ /* navbar disine start hear */
+.nav-logo{
+    text-align: center;
+}
+.nav-hesding h1{
+    text-align: right;
+}
+.navbar-manu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-manu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+/* navbar disine and hear */
+
+/* profile disine start hear */
+.profile .top-weatar-icon{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    transition: width 2s, transform 2s;
+}
+.profile .top-weatar-icon:hover{
+    width: 140px;
+}
+.profile-desc p{
+    color: gray;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.profile .bottom-weather-icon{
+    /* position: absolute; */
+    bottom: 20px;
+    left: 140px;
+    transition: transform 2s;
+}
+.profile .bottom-weather-icon:hover{
+    transform: rotate(360deg);
+}
+/* profile disine and hear */
+
+/* about me disine start hear */
+.aboutme-image{
+    margin-top: 100px;
+}
+.aboutme-image img{
+    height: 270px;
+    width: 250px;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+/* about me disine start hear */
+
+/* achievement-contact start hear */
+.achievement{
+    padding-right: 50px;
+}
+.contact-links{
+    position: relative;
+}
+.midiya-button{
+    position: absolute;
+    margin-top: 240px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* achievement-contact end hear */
+
+/* footer start for hear */
+.footer-manu{
+    margin-top: 12px;
+}
+.footer-manu a{
+    display: inline;
+    margin: 10px;
+}
+/* footer end for hear */
